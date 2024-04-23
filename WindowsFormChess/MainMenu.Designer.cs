@@ -34,25 +34,22 @@ namespace Sakk_Alkalmazás_2._0
             // 
             // Start_btn
             // 
-            this.Start_btn.Location = new System.Drawing.Point(78, 65);
+            this.Start_btn.Location = new System.Drawing.Point(94, 93);
+            this.Start_btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Start_btn.Name = "Start_btn";
-            this.Start_btn.Size = new System.Drawing.Size(176, 66);
+            this.Start_btn.Size = new System.Drawing.Size(198, 93);
             this.Start_btn.TabIndex = 0;
-            this.Start_btn.Text = "Single Game";
+            this.Start_btn.Text = "Begin game";
             this.Start_btn.UseVisualStyleBackColor = true;
             this.Start_btn.Click += new System.EventHandler(this.Start_btn_Click);
             // 
-            // Connection_btn
-            // 
-           
-            // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 332);
-          
+            this.ClientSize = new System.Drawing.Size(383, 276);
             this.Controls.Add(this.Start_btn);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             this.ResumeLayout(false);
