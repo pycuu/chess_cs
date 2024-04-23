@@ -50,3 +50,16 @@ D:\chess_cs\WindowsFormChess-LAN-\WindowsFormChess\obj\Debug\WindowsFormChess.cs
 D:\chess_cs\WindowsFormChess-LAN-\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.CoreCompileInputs.cache
 D:\chess_cs\WindowsFormChess-LAN-\WindowsFormChess\obj\Debug\Sakk Alkalmazás 2.0.exe
 D:\chess_cs\WindowsFormChess-LAN-\WindowsFormChess\obj\Debug\Sakk Alkalmazás 2.0.pdb
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.AssemblyReference.cache
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk_Alkalmazás_2._0.ConnectionForm.resources
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk_Alkalmazás_2._0.InGameForm.resources
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk_Alkalmazás_2._0.MainMenu.resources
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk_Alkalmazás_2._0.PromotionForm.resources
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk_Alkalmazás_2._0.Properties.Resources.resources
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.GenerateResource.cache
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.CoreCompileInputs.cache
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk Alkalmazás 2.0.exe
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk Alkalmazás 2.0.pdb
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.exe.config
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.exe
+D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.pdb

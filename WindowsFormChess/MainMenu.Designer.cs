@@ -30,7 +30,6 @@ namespace Sakk_Alkalmazás_2._0
         private void InitializeComponent()
         {
             this.Start_btn = new System.Windows.Forms.Button();
-            this.Connection_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Start_btn
@@ -45,20 +44,14 @@ namespace Sakk_Alkalmazás_2._0
             // 
             // Connection_btn
             // 
-            this.Connection_btn.Location = new System.Drawing.Point(78, 160);
-            this.Connection_btn.Name = "Connection_btn";
-            this.Connection_btn.Size = new System.Drawing.Size(176, 64);
-            this.Connection_btn.TabIndex = 1;
-            this.Connection_btn.Text = "Lan Game";
-            this.Connection_btn.UseVisualStyleBackColor = true;
-            this.Connection_btn.Click += new System.EventHandler(this.Connection_btn_Click);
+           
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(341, 332);
-            this.Controls.Add(this.Connection_btn);
+          
             this.Controls.Add(this.Start_btn);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
@@ -69,6 +62,6 @@ namespace Sakk_Alkalmazás_2._0
         #endregion
 
         private System.Windows.Forms.Button Start_btn;
-        private System.Windows.Forms.Button Connection_btn;
+        
     }
 }
