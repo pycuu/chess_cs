@@ -1,5 +1,5 @@
 ﻿
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     partial class ClickUserClass
     {

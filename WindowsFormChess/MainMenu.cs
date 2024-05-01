@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     public partial class MainMenu : Form
     {

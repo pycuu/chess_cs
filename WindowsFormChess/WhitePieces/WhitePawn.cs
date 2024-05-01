@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     class WhitePawn
     {
@@ -14,12 +15,12 @@ namespace Sakk_Alkalmazás_2._0
             {
                 return PossibleMoves;
             }
-            //lépes előre ha nincs előtte senki
+            //Move forward if there is no piece in front
             if (Table[i - 1, j] == 0)
             {
                 PossibleMoves[i - 1, j] = 2;
             }
-            //ellenfél bábú leütése balra
+            //Capture opponent's piece to the left
             if (j - 1 >= 0)
             {
                 if (Table[i - 1, j - 1] < 10 && Table[i - 1, j - 1] != 0)
@@ -27,7 +28,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i - 1, j - 1] = 2;
                 }
             }
-            //ellenfél bábú leütése jobra
+            //Capture opponent's piece to the right
             if (j + 1 < 8)
             {
                 if (Table[i - 1, j + 1] < 10 && Table[i - 1, j + 1] != 0)
@@ -35,7 +36,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i - 1, j + 1] = 2;
                 }
             }
-            //dupla lépés előre kezdőpontról, ha nincs előtte senki
+            //Double move forward from starting position if no piece in front
             if (i == 6)
             {
                 if (Table[i - 2, j] == 0 && Table[i - 1, j] == 0)
@@ -53,7 +54,7 @@ namespace Sakk_Alkalmazás_2._0
                 {
                     if (Table[i, j] == 11)
                     {
-                        //ellenfél bábú leütése balra
+                        //Capture opponent's piece to the left
                         if (j - 1 >= 0)
                         {
                             if (Table[i - 1, j - 1] < 10 && Table[i - 1, j - 1] != 0)
@@ -61,7 +62,7 @@ namespace Sakk_Alkalmazás_2._0
                                 PossibleMoves[i - 1, j - 1] = 2;
                             }
                         }
-                        //ellenfél bábú leütése jobra
+                        //Capture opponent's piece to the right
                         if (j + 1 < 8)
                         {
                             if (Table[i - 1, j + 1] < 10 && Table[i - 1, j + 1] != 0)

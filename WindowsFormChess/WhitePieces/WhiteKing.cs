@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     class WhiteKing
     {
@@ -14,7 +14,7 @@ namespace Sakk_Alkalmazás_2._0
             {
                 return PossibleMoves;
             }
-            //balra
+            //left
             if (j - 1 >= 0)
             {
                 if (Table[i, j - 1] < 10)
@@ -22,7 +22,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i, j - 1] = 2;
                 }
             }
-            //jobbra
+            //right
             if (j + 1 < 8)
             {
                 if (Table[i, j + 1] < 10)
@@ -30,7 +30,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i, j + 1] = 2;
                 }
             }
-            //fel
+            //up
             if (i - 1 >= 0)
             {
                 if (Table[i - 1, j] < 10)
@@ -38,7 +38,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i - 1, j] = 2;
                 }
             }
-            //le
+            //down
             if (i + 1 < 8)
             {
                 if (Table[i + 1, j] < 10)
@@ -46,7 +46,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i + 1, j] = 2;
                 }
             }
-            //balra fel
+            //up left
             if (i - 1 >= 0 && j - 1 >= 0)
             {
                 if (Table[i - 1, j - 1] < 10)
@@ -54,7 +54,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i - 1, j - 1] = 2;
                 }
             }
-            //jobbra fel
+            //up right
             if (i - 1 >= 0 && j + 1 < 8)
             {
                 if (Table[i - 1, j + 1] < 10)
@@ -62,7 +62,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i - 1, j + 1] = 2;
                 }
             }
-            //balra le
+            //down left
             if (i + 1 < 8 && j - 1 >= 0)
             {
                 if (Table[i + 1, j - 1] < 10)
@@ -70,7 +70,7 @@ namespace Sakk_Alkalmazás_2._0
                     PossibleMoves[i + 1, j - 1] = 2;
                 }
             }
-            // jobbra le
+            //down right
             if (i + 1 < 8 && j + 1 < 8)
             {
                 if (Table[i + 1, j + 1] < 10)

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     class BlackBishop2
     {

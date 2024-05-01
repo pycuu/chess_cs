@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     class TypeOfMoves
     {
@@ -26,7 +26,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra felfele
+            //up
             for (b = 1; b < 8; b++)
             {
                 if (i - b >= 0 && j + b < 8)
@@ -42,7 +42,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //balra felfele
+            //up left
             for (b = 1; b < 8; b++)
             {
                 if (i + b < 8 && j - b >= 0)
@@ -58,7 +58,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra lefele
+            //up right
             for (b = 1; b < 8; b++)
             {
                 if (i + b < 8 && j + b < 8)
@@ -80,7 +80,7 @@ namespace Sakk_Alkalmazás_2._0
         public int[,] WhiteVerticalAndHorizontalMoves(int[,] Table,int[,] PossibleMoves, int i, int j)
         {
             int b;
-            //felfele lépés ütközésig
+            //upward movement until collision
             for (b = i - 1; b > -1; b--)
             {
                 if (Table[b, j] == 0)
@@ -100,7 +100,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés ütközésig
+            //downward movement until collision
             for (b = i + 1; b < 8; b++)
             {
                 if (Table[b, j] == 0)
@@ -120,7 +120,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //balra lépés ütközésig
+            //leftward movement until collision
             for (b = j - 1; b > -1; b--)
             {
                 if (Table[i, b] == 0)
@@ -140,7 +140,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra lépés ütközésig
+            //rightward movement until collision
             for (b = j + 1; b < 8; b++)
             {
                 if (Table[i, b] == 0)
@@ -165,7 +165,7 @@ namespace Sakk_Alkalmazás_2._0
         }
         public int[,] WhiteHorseMoves(int[,] Table,int[,] PossibleMoves, int i, int j)
         {
-            //felfele lépés álló L alakban
+            //upward movement in standing L shape
             if (i - 2 >= 0)
             {
                 if (j - 1 >= 0)
@@ -185,7 +185,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés álló L alakban
+            //downward movement in standing L shape
             if (i + 2 < 8)
             {
                 if (j - 1 >= 0)
@@ -205,7 +205,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //felfele lépés fektetett L alakban
+            //upward movement in lying L shape
             if (j - 2 >= 0)
             {
                 if (i - 1 >= 0)
@@ -223,7 +223,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés fektetett L alakban
+            //downward movement in lying L shape
             if (j + 2 < 8)
             {
                 if (i - 1 >= 0)
@@ -247,7 +247,7 @@ namespace Sakk_Alkalmazás_2._0
         public int[,] BlackDiagonalMoves(int[,] Table, int[,] PossibleMoves, int i, int j)
         {
             int b;
-            //balra felfele
+            //up left
             for (b = 1; b < 8; b++)
             {
                 if (i - b >= 0 && j - b >= 0)
@@ -262,7 +262,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra felfele
+            //up right
             for (b = 1; b < 8; b++)
             {
                 if (i - b >= 0 && j + b < 8)
@@ -277,7 +277,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //balra felfele
+            //down left
             for (b = 1; b < 8; b++)
             {
                 if (i + b < 8 && j - b >= 0)
@@ -292,7 +292,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra lefele
+            //down right
             for (b = 1; b < 8; b++)
             {
                 if (i + b < 8 && j + b < 8)
@@ -332,7 +332,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés ütközésig
+            //downward movement until collision
             for (b = i + 1; b < 8; b++)
             {
                 if (Table[b, j] == 0)
@@ -352,7 +352,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //balra lépés ütközésig
+            //leftward movement until collision
             for (b = j - 1; b > -1; b--)
             {
                 if (Table[i, b] == 0)
@@ -372,7 +372,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //jobbra lépés ütközésig
+            //rightward movement until collision
             for (b = j + 1; b < 8; b++)
             {
                 if (Table[i, b] == 0)
@@ -397,7 +397,7 @@ namespace Sakk_Alkalmazás_2._0
         }
         public int[,] BlackHorseMoves(int[,] Table, int[,] PossibleMoves, int i, int j)
         {
-            //felfele lépés álló L alakban
+            //upward movement in standing L shape
             if (i - 2 >= 0)
             {
                 if (j - 1 >= 0)
@@ -417,7 +417,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés álló L alakban
+            //downward movement in standing L shape
             if (i + 2 < 8)
             {
                 if (j - 1 >= 0)
@@ -437,7 +437,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //felfele lépés fektetett L alakban
+            //upward movement in lying L shape
             if (j - 2 >= 0)
             {
                 if (i - 1 >= 0)
@@ -455,7 +455,7 @@ namespace Sakk_Alkalmazás_2._0
                     }
                 }
             }
-            //lefele lépés fektetett L alakban
+            //downward movement in lying L shape
             if (j + 2 < 8)
             {
                 if (i - 1 >= 0)

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     public partial class InGameForm : Form
     {
@@ -187,24 +187,24 @@ namespace Sakk_Alkalmazás_2._0
                     switch (tableClass.Table[i, j])
                     {
                         case 00: TableBackground[i, j].BackgroundImage = null; break;
-                        case 01: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetParaszt.png"); break;
-                        case 02: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetBastya.png"); break;
-                        case 03: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetHuszar.png"); break;
-                        case 04: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetFuto.png"); break;
-                        case 05: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetKiralyno.png"); break;
-                        case 06: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetKiraly.png"); break;
-                        case 07: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetBastya.png"); break;
-                        case 08: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetHuszar.png"); break;
-                        case 09: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\SotetFuto.png"); break;
-                        case 11: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosParaszt.png"); break;
-                        case 12: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosBastya.png"); break;
-                        case 13: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosHuszar.png"); break;
-                        case 14: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosFuto.png"); break;
-                        case 15: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosKiralyno.png"); break;
-                        case 16: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosKiraly.png"); break;
-                        case 17: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosBastya.png"); break;
-                        case 18: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosHuszar.png"); break;
-                        case 19: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Kepek\\VilagosFuto.png"); break;
+                        case 01: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackPawn.png"); break;
+                        case 02: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackRook.png"); break;
+                        case 03: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackKnight.png"); break;
+                        case 04: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackBishop.png"); break;
+                        case 05: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackQueen.png"); break;
+                        case 06: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackKing.png"); break;
+                        case 07: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackRook.png"); break;
+                        case 08: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackKnight.png"); break;
+                        case 09: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\BlackBishop.png"); break;
+                        case 11: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhitePawn.png"); break;
+                        case 12: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteRook.png"); break;
+                        case 13: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteKnight.png"); break;
+                        case 14: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteBishop.png"); break;
+                        case 15: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteQueen.png"); break;
+                        case 16: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteKing.png"); break;
+                        case 17: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteRook.png"); break;
+                        case 18: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteKnight.png"); break;
+                        case 19: TableBackground[i, j].BackgroundImage = System.Drawing.Image.FromFile("Pieces\\WhiteBishop.png"); break;
                     }
                 }
             }

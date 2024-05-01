@@ -1,5 +1,5 @@
 ﻿
-namespace Sakk_Alkalmazás_2._0
+namespace Chess_game
 {
     partial class PromotionForm
     {
@@ -42,7 +42,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_BlackKnight
             // 
             this.btn_BlackKnight.BackColor = System.Drawing.Color.Transparent;
-            this.btn_BlackKnight.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.black_knight;
+            this.btn_BlackKnight.BackgroundImage = global::Chess_game.Properties.Resources.black_knight;
             this.btn_BlackKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackKnight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlackKnight.Location = new System.Drawing.Point(352, 28);
@@ -54,7 +54,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_BlackRook
             // 
             this.btn_BlackRook.BackColor = System.Drawing.Color.Transparent;
-            this.btn_BlackRook.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.black_rook;
+            this.btn_BlackRook.BackgroundImage = global::Chess_game.Properties.Resources.black_rook;
             this.btn_BlackRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackRook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlackRook.Location = new System.Drawing.Point(162, 28);
@@ -66,7 +66,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_BlackQueen
             // 
             this.btn_BlackQueen.BackColor = System.Drawing.Color.Transparent;
-            this.btn_BlackQueen.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.black_queen;
+            this.btn_BlackQueen.BackgroundImage = global::Chess_game.Properties.Resources.black_queen;
             this.btn_BlackQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackQueen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlackQueen.Location = new System.Drawing.Point(67, 28);
@@ -78,7 +78,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_BlackBishop
             // 
             this.btn_BlackBishop.BackColor = System.Drawing.Color.Transparent;
-            this.btn_BlackBishop.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.black_bishop;
+            this.btn_BlackBishop.BackgroundImage = global::Chess_game.Properties.Resources.black_bishop;
             this.btn_BlackBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackBishop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlackBishop.Location = new System.Drawing.Point(257, 28);
@@ -90,7 +90,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_WhiteBishop
             // 
             this.btn_WhiteBishop.BackColor = System.Drawing.Color.Transparent;
-            this.btn_WhiteBishop.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.white_bishop;
+            this.btn_WhiteBishop.BackgroundImage = global::Chess_game.Properties.Resources.white_bishop;
             this.btn_WhiteBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteBishop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_WhiteBishop.Location = new System.Drawing.Point(257, 90);
@@ -102,7 +102,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_WhiteQueen
             // 
             this.btn_WhiteQueen.BackColor = System.Drawing.Color.Transparent;
-            this.btn_WhiteQueen.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.white_queen;
+            this.btn_WhiteQueen.BackgroundImage = global::Chess_game.Properties.Resources.white_queen;
             this.btn_WhiteQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteQueen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_WhiteQueen.Location = new System.Drawing.Point(67, 90);
@@ -114,7 +114,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_WhiteRook
             // 
             this.btn_WhiteRook.BackColor = System.Drawing.Color.Transparent;
-            this.btn_WhiteRook.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.white_rook;
+            this.btn_WhiteRook.BackgroundImage = global::Chess_game.Properties.Resources.white_rook;
             this.btn_WhiteRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteRook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_WhiteRook.Location = new System.Drawing.Point(162, 90);
@@ -126,7 +126,7 @@ namespace Sakk_Alkalmazás_2._0
             // btn_WhiteKnight
             // 
             this.btn_WhiteKnight.BackColor = System.Drawing.Color.Transparent;
-            this.btn_WhiteKnight.BackgroundImage = global::Sakk_Alkalmazás_2._0.Properties.Resources.white_knight;
+            this.btn_WhiteKnight.BackgroundImage = global::Chess_game.Properties.Resources.white_knight;
             this.btn_WhiteKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteKnight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_WhiteKnight.Location = new System.Drawing.Point(352, 90);

@@ -63,3 +63,17 @@ D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\obj\Debug\Sakk Alkal
 D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.exe.config
 D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.exe
 D:\chess_cs\WindowsFormChess-LAN-\chess_cs\WindowsFormChess\bin\Debug\Sakk Alkalmazás 2.0.pdb
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.AssemblyReference.cache
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.SuggestedBindingRedirects.cache
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess_game.ConnectionForm.resources
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess_game.InGameForm.resources
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess_game.MainMenu.resources
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess_game.PromotionForm.resources
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.GenerateResource.cache
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\WindowsFormChess.csproj.CoreCompileInputs.cache
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\bin\Debug\Chess Game.exe.config
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\bin\Debug\Chess Game.exe
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\bin\Debug\Chess Game.pdb
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess_game.Properties.Resources.resources
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess Game.exe
+C:\Users\mbarc\Desktop\Semsetr IV\Angielski\chess_cs\WindowsFormChess\obj\Debug\Chess Game.pdb
