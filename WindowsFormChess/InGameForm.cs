@@ -121,16 +121,16 @@ namespace Chess_game
                 {
                     TableBackground[i, j] = new ClickUserClass();
                     TableBackground[i, j].Parent = this;
-                    TableBackground[i, j].Location = new Point(j * 50 + 50, i * 50 + 50);
+                    TableBackground[i, j].Location = new Point(j * 125 + 450, i * 125 + 0);
                     TableBackground[i, j].pozX = j;
                     TableBackground[i, j].pozY = i;
-                    TableBackground[i, j].Size = new Size(50, 50);
+                    TableBackground[i, j].Size = new Size(125, 125);
                     TableBackground[i, j].Click += new EventHandler(ClickUserClass_Click);
                     if (i % 2 == 0)
                     {
                         if (j % 2 == 1)
                         {
-                            TableBackground[i, j].BackColor = Color.Green;
+                            TableBackground[i, j].BackColor = Color.Pink;
                         }
                         else
                         {
@@ -145,7 +145,7 @@ namespace Chess_game
                         }
                         else
                         {
-                            TableBackground[i, j].BackColor = Color.Green;
+                            TableBackground[i, j].BackColor = Color.Pink;
                         }
                     }
                     TableBackground[i, j].BackgroundImageLayout = ImageLayout.Center;
@@ -369,12 +369,12 @@ namespace Chess_game
                     //we color the avalaibles move cells to yellow *array value 2*
                     if (tableClass.PossibleMoves[i, j] == 2)
                     {
-                        TableBackground[i, j].BackColor = Color.Yellow;
+                        TableBackground[i, j].BackColor = Color.Khaki;
                     }
                     //the background of the selected cell will be blue at here
                     if (tableClass.PossibleMoves[i, j] == 3)
                     {
-                        TableBackground[i, j].BackColor = Color.Blue;
+                        TableBackground[i, j].BackColor = Color.DarkSeaGreen;
                     }
                 }
             }
@@ -408,7 +408,7 @@ namespace Chess_game
                     {
                         if (j % 2 == 1)
                         {
-                            TableBackground[i, j].BackColor = Color.Green;
+                            TableBackground[i, j].BackColor = Color.Pink;
                         }
                         else
                         {
@@ -423,7 +423,7 @@ namespace Chess_game
                         }
                         else
                         {
-                            TableBackground[i, j].BackColor = Color.Green;
+                            TableBackground[i, j].BackColor = Color.Pink;
                         }
                     }
                 }
@@ -710,7 +710,7 @@ namespace Chess_game
                 {
                     SendMove(a, b);
                 }
-                MessageBox.Show("You Win!");
+                MessageBox.Show("Blue wins!");
             }
         }
         //socket things
@@ -782,11 +782,11 @@ namespace Chess_game
             {
                 if (WhiteTurn)
                 {
-                    MessageBox.Show("You Lost!");
+                    MessageBox.Show("Purple wins!");
                 }
                 else
                 {
-                    MessageBox.Show("You lost!");
+                    MessageBox.Show("Purple wins!");
                 }
             }
         }

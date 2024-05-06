@@ -45,9 +45,10 @@ namespace Chess_game
             this.btn_BlackKnight.BackgroundImage = global::Chess_game.Properties.Resources.black_knight;
             this.btn_BlackKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackKnight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_BlackKnight.Location = new System.Drawing.Point(352, 28);
+            this.btn_BlackKnight.Location = new System.Drawing.Point(517, 11);
+            this.btn_BlackKnight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_BlackKnight.Name = "btn_BlackKnight";
-            this.btn_BlackKnight.Size = new System.Drawing.Size(54, 56);
+            this.btn_BlackKnight.Size = new System.Drawing.Size(126, 162);
             this.btn_BlackKnight.TabIndex = 3;
             this.btn_BlackKnight.UseVisualStyleBackColor = false;
             // 
@@ -57,9 +58,10 @@ namespace Chess_game
             this.btn_BlackRook.BackgroundImage = global::Chess_game.Properties.Resources.black_rook;
             this.btn_BlackRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackRook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_BlackRook.Location = new System.Drawing.Point(162, 28);
+            this.btn_BlackRook.Location = new System.Drawing.Point(183, 11);
+            this.btn_BlackRook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_BlackRook.Name = "btn_BlackRook";
-            this.btn_BlackRook.Size = new System.Drawing.Size(54, 56);
+            this.btn_BlackRook.Size = new System.Drawing.Size(136, 162);
             this.btn_BlackRook.TabIndex = 4;
             this.btn_BlackRook.UseVisualStyleBackColor = false;
             // 
@@ -69,9 +71,10 @@ namespace Chess_game
             this.btn_BlackQueen.BackgroundImage = global::Chess_game.Properties.Resources.black_queen;
             this.btn_BlackQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackQueen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_BlackQueen.Location = new System.Drawing.Point(67, 28);
+            this.btn_BlackQueen.Location = new System.Drawing.Point(30, 11);
+            this.btn_BlackQueen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_BlackQueen.Name = "btn_BlackQueen";
-            this.btn_BlackQueen.Size = new System.Drawing.Size(54, 56);
+            this.btn_BlackQueen.Size = new System.Drawing.Size(133, 162);
             this.btn_BlackQueen.TabIndex = 5;
             this.btn_BlackQueen.UseVisualStyleBackColor = false;
             // 
@@ -81,9 +84,10 @@ namespace Chess_game
             this.btn_BlackBishop.BackgroundImage = global::Chess_game.Properties.Resources.black_bishop;
             this.btn_BlackBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_BlackBishop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_BlackBishop.Location = new System.Drawing.Point(257, 28);
+            this.btn_BlackBishop.Location = new System.Drawing.Point(343, 11);
+            this.btn_BlackBishop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_BlackBishop.Name = "btn_BlackBishop";
-            this.btn_BlackBishop.Size = new System.Drawing.Size(54, 56);
+            this.btn_BlackBishop.Size = new System.Drawing.Size(140, 162);
             this.btn_BlackBishop.TabIndex = 6;
             this.btn_BlackBishop.UseVisualStyleBackColor = false;
             // 
@@ -93,9 +97,10 @@ namespace Chess_game
             this.btn_WhiteBishop.BackgroundImage = global::Chess_game.Properties.Resources.white_bishop;
             this.btn_WhiteBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteBishop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_WhiteBishop.Location = new System.Drawing.Point(257, 90);
+            this.btn_WhiteBishop.Location = new System.Drawing.Point(333, 196);
+            this.btn_WhiteBishop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_WhiteBishop.Name = "btn_WhiteBishop";
-            this.btn_WhiteBishop.Size = new System.Drawing.Size(54, 56);
+            this.btn_WhiteBishop.Size = new System.Drawing.Size(150, 153);
             this.btn_WhiteBishop.TabIndex = 10;
             this.btn_WhiteBishop.UseVisualStyleBackColor = false;
             // 
@@ -105,9 +110,10 @@ namespace Chess_game
             this.btn_WhiteQueen.BackgroundImage = global::Chess_game.Properties.Resources.white_queen;
             this.btn_WhiteQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteQueen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_WhiteQueen.Location = new System.Drawing.Point(67, 90);
+            this.btn_WhiteQueen.Location = new System.Drawing.Point(30, 196);
+            this.btn_WhiteQueen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_WhiteQueen.Name = "btn_WhiteQueen";
-            this.btn_WhiteQueen.Size = new System.Drawing.Size(54, 56);
+            this.btn_WhiteQueen.Size = new System.Drawing.Size(133, 153);
             this.btn_WhiteQueen.TabIndex = 9;
             this.btn_WhiteQueen.UseVisualStyleBackColor = false;
             // 
@@ -117,9 +123,10 @@ namespace Chess_game
             this.btn_WhiteRook.BackgroundImage = global::Chess_game.Properties.Resources.white_rook;
             this.btn_WhiteRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteRook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_WhiteRook.Location = new System.Drawing.Point(162, 90);
+            this.btn_WhiteRook.Location = new System.Drawing.Point(183, 196);
+            this.btn_WhiteRook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_WhiteRook.Name = "btn_WhiteRook";
-            this.btn_WhiteRook.Size = new System.Drawing.Size(54, 56);
+            this.btn_WhiteRook.Size = new System.Drawing.Size(136, 153);
             this.btn_WhiteRook.TabIndex = 8;
             this.btn_WhiteRook.UseVisualStyleBackColor = false;
             // 
@@ -129,17 +136,18 @@ namespace Chess_game
             this.btn_WhiteKnight.BackgroundImage = global::Chess_game.Properties.Resources.white_knight;
             this.btn_WhiteKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_WhiteKnight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_WhiteKnight.Location = new System.Drawing.Point(352, 90);
+            this.btn_WhiteKnight.Location = new System.Drawing.Point(517, 196);
+            this.btn_WhiteKnight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_WhiteKnight.Name = "btn_WhiteKnight";
-            this.btn_WhiteKnight.Size = new System.Drawing.Size(54, 56);
+            this.btn_WhiteKnight.Size = new System.Drawing.Size(126, 153);
             this.btn_WhiteKnight.TabIndex = 7;
             this.btn_WhiteKnight.UseVisualStyleBackColor = false;
             // 
             // PromotionForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 236);
+            this.ClientSize = new System.Drawing.Size(686, 391);
             this.Controls.Add(this.btn_WhiteBishop);
             this.Controls.Add(this.btn_WhiteQueen);
             this.Controls.Add(this.btn_WhiteRook);
@@ -148,6 +156,7 @@ namespace Chess_game
             this.Controls.Add(this.btn_BlackQueen);
             this.Controls.Add(this.btn_BlackRook);
             this.Controls.Add(this.btn_BlackKnight);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PromotionForm";
             this.Text = "PromotionForm";
             this.ResumeLayout(false);

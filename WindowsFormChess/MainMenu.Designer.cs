@@ -34,10 +34,10 @@ namespace Chess_game
             // 
             // Start_btn
             // 
-            this.Start_btn.Location = new System.Drawing.Point(94, 93);
-            this.Start_btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Start_btn.Location = new System.Drawing.Point(63, 60);
+            this.Start_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Start_btn.Name = "Start_btn";
-            this.Start_btn.Size = new System.Drawing.Size(198, 93);
+            this.Start_btn.Size = new System.Drawing.Size(132, 60);
             this.Start_btn.TabIndex = 0;
             this.Start_btn.Text = "Begin game";
             this.Start_btn.UseVisualStyleBackColor = true;
@@ -45,11 +45,11 @@ namespace Chess_game
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 276);
+            this.ClientSize = new System.Drawing.Size(255, 180);
             this.Controls.Add(this.Start_btn);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             this.ResumeLayout(false);
